@@ -1,0 +1,18 @@
+
+header{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/44219150_1382365638566253_6412984715275403264_n.jpg?_nc_cat=102&_nc_ht=scontent.fkgl1-1.fna&oh=98e501fcecb4ad9d4e8d9388ccf7828b&oe=5C64BFB9");
+    width: 500pxpx;
+    height: 300px;
+    background-position: center;
+    background-size: 200px 500px;
+    color: white;
+    font-family: sans serif;
+    text-align: center;
+    padding-top: 100px;
+   
+    
+
+}
+body{
+    background-color: teal;
+}
