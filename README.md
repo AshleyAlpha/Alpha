@@ -1,20 +1,23 @@
-# my First Project/AboutMe
+# My Homepage/AboutMe
 
-## Authors
-- [AshleyAlpha](https://github.com/mine1)
-- Add your clickable username here. It should point to your GitHub account. 
+Author:
 
-## Project setup instructions
-To start using this project use the following commands:
+Alpha MBABAZI
 
-- `git clone https://github.com/moringaschool/hello-world.git`
-- `cd hello-world`
-- `atom .`
-- `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
+Decsription:
 
-LANGUAGES USED
- 
-#License
+this is my landing page which you will find all about me, such as my background education, hobbies, etc. You will also see some projects that i made by navigating my portfolio page. this will require you to:
 
-MIT Copyright (c) 2018 Moringa School
+* make sure if you have internet connection
+* open your web browser
+* put the link: http://AshleyAlpha.github.io/mine1/
+* here you got it!
+
+Languages used:
+* HTML
+* CSS
+
+License:
+
+MIT Copyright (c) 2018 Alpha MBABAZI
 
