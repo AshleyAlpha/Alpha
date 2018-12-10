@@ -8,6 +8,8 @@ nav>ul{
     text-align: right;
     font-family: calibri;
     font-size: 25px;
+    position: fixed;
+    right:0;
     
 }
 nav>ul>li>a{
@@ -53,8 +55,13 @@ p{
     padding: 20px;
 
 }
+.fix{
+    position: fixed;
+}
 #img1{
 border-radius: 50%;
+width: 500px;
+height: 500px;
 }
 
 #img2{
@@ -64,5 +71,20 @@ border-radius: 50%;
     height: 500px;
    
 }  
+.footer{
+    background-color:darkslategrey;
+    text-align:center;
+    padding: 10px;
+    
+}
 
+.footer>ul>li{
+    
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 60px;
+}
+.footer ul li a{
+    color: snow;
+}
 

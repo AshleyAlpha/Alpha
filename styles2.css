@@ -10,7 +10,7 @@
     animation:slide 25s infinite;
 }
 header{
-    padding-left: 500px;
+    padding-left: 600px;
 }
 
 @keyframes slide{
@@ -69,11 +69,14 @@ img{
 }
 nav>ul>li{
     display:inline-block;
+    
 }
 nav>ul{
     text-align: right;
     font-family: calibri;
     font-size: 25px;
+    position: fixed;
+    right:0;
     
 }
 nav>ul>li>a{
@@ -85,4 +88,18 @@ nav>ul>li>a:hover{
     color:teal;
     background-color:snow;
     padding: 10px;
+}
+.footer{
+    background-color:darkslategrey;
+    text-align:center;
+    padding: 10px;
+    
+}
+
+.footer ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.footer ul li a{
+    color: snow;
 }
