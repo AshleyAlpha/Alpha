@@ -42,6 +42,17 @@ p{
     padding: 20px;
 
 }
+#a2{
+    color:teal;
+    font-family: calibri;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    left:800px;
+    background-color: snow;
+    padding: 20px;
+
+}
 #img1{
 border-radius: 50%;
 }
