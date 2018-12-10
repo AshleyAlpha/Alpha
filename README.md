@@ -10,7 +10,7 @@ this is my landing page which you will find all about me, such as my background 
 
 * make sure if you have internet connection
 * open your web browser
-* put the link: http://AshleyAlpha.github.io/mine1/index.html
+* put the link: http://AshleyAlpha.github.io/mine1/
 * here you got it!
 
 Languages used:
