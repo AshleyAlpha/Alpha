@@ -1,15 +1,49 @@
 
-header{
+.slider{
     background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/44219150_1382365638566253_6412984715275403264_n.jpg?_nc_cat=102&_nc_ht=scontent.fkgl1-1.fna&oh=98e501fcecb4ad9d4e8d9388ccf7828b&oe=5C64BFB9");
-    width: 500pxpx;
-    height: 300px;
+    margin:0;
+    width: 800px;
+    height: 500px;
     background-position: center;
-    background-size: 200px 500px;
-    color:navajowhite;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 100px;
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:slide 25s infinite;
+}
+header{
+    padding-left: 500px;
+}
+
+@keyframes slide{
+0%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/44219150_1382365638566253_6412984715275403264_n.jpg?_nc_cat=102&_nc_ht=scontent.fkgl1-1.fna&oh=98e501fcecb4ad9d4e8d9388ccf7828b&oe=5C64BFB9")
+}
+20%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/44219150_1382365638566253_6412984715275403264_n.jpg?_nc_cat=102&_nc_ht=scontent.fkgl1-1.fna&oh=98e501fcecb4ad9d4e8d9388ccf7828b&oe=5C64BFB9")
+}
+20.01%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/30594633_1214180498718102_2496556711255474176_n.jpg?_nc_cat=109&_nc_ht=scontent.fkgl1-1.fna&oh=e0e80f20f6af536fbdb8427539e266c6&oe=5C93A792")
+}
+40%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/30594633_1214180498718102_2496556711255474176_n.jpg?_nc_cat=109&_nc_ht=scontent.fkgl1-1.fna&oh=e0e80f20f6af536fbdb8427539e266c6&oe=5C93A792")
+}
+40.01%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/48156143_2268527900090649_1142214314346676224_n.jpg?_nc_cat=105&_nc_ht=scontent.fkgl1-1.fna&oh=1ca7cb67aac3ca5d45a7ec5a611c176e&oe=5C9609B8")
+}
+60%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/48156143_2268527900090649_1142214314346676224_n.jpg?_nc_cat=105&_nc_ht=scontent.fkgl1-1.fna&oh=1ca7cb67aac3ca5d45a7ec5a611c176e&oe=5C9609B8")
+}
+60.01%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/38023505_1306475646155253_2849575462181535744_n.jpg?_nc_cat=111&_nc_ht=scontent.fkgl1-1.fna&oh=150500527377c628372bfccd5a6c8f1a&oe=5C93925F")
+}
+80%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/38023505_1306475646155253_2849575462181535744_n.jpg?_nc_cat=111&_nc_ht=scontent.fkgl1-1.fna&oh=150500527377c628372bfccd5a6c8f1a&oe=5C93925F")
+}
+80.01%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/48370219_500725007106510_8633688862658396160_n.jpg?_nc_cat=100&_nc_ht=scontent.fkgl1-1.fna&oh=60a6ff8de032bae074ed9bc97e68f8c0&oe=5C66E342")
+}
+100%{
+    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/48370219_500725007106510_8633688862658396160_n.jpg?_nc_cat=100&_nc_ht=scontent.fkgl1-1.fna&oh=60a6ff8de032bae074ed9bc97e68f8c0&oe=5C66E342")
+}
 }
 body{
     background-color: teal;

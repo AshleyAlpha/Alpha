@@ -32,24 +32,20 @@ p{
     margin-top: 90px;
 }
 #a1{
-    color: snow;
+    color:teal;
     font-family: calibri;
     font-size: 20px;
     text-decoration: none;
     position: fixed;
     left:800px;
-
-}
-#a1:hover{
-    color:teal;
-    background-color:snow;
+    background-color: snow;
     padding: 20px;
-   
+
 }
 #img1{
 border-radius: 50%;
-
 }
+
 #img2{
     border-radius: 50%;
     float: right;
