@@ -1,0 +1,61 @@
+html{
+    background-color:teal;
+}
+nav>ul>li{
+    display:inline-block;
+}
+nav>ul{
+    text-align: right;
+    font-family: calibri;
+    font-size: 25px;
+    
+}
+nav>ul>li>a{
+    color: snow;
+    padding:20px;
+    text-decoration: none;
+}
+nav>ul>li>a:hover{
+    color: teal;
+    background-color: snow;
+    padding: 10px;
+    margin-top: 50px;
+}
+p{
+    text-align: center;
+    width: 500px;
+    float: center;
+    color: snow;
+    font-family: calibri;
+    font-size: 20px;
+    padding-left: 600px;
+    margin-top: 90px;
+}
+#a1{
+    color: snow;
+    font-family: calibri;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    left:800px;
+
+}
+#a1:hover{
+    color:teal;
+    background-color:snow;
+    padding: 20px;
+   
+}
+#img1{
+border-radius: 50%;
+
+}
+#img2{
+    border-radius: 50%;
+    float: right;
+    width: 500px;
+    height: 500px;
+   
+}  
+
+
