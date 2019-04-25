@@ -49,3 +49,15 @@ nav>ul>li>a:hover{
     background-color: teal;
     padding: 10px;
 }
+.potf{
+    text-align: center;
+    font-family: monospace;
+    color: teal;
+}
+#jaja{
+ text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
