@@ -53,11 +53,29 @@ nav>ul>li>a:hover{
     text-align: center;
     font-family: monospace;
     color: teal;
-}
-#jaja{
- text-decoration: none;
+    text-decoration:none;
 }
 a{
     text-decoration: none;
     color: black;
+}
+.footer{
+    background-color:darkslategrey;
+    text-align:center;
+    padding: 10px;
+    
+}
+.footer>ul>li{
+    list-style-type: none;
+}
+ul>li{
+    list-style-type: none;
+}
+#jaja{
+
+    font-family: calibri;
+    font-size: 25px;
+    color: teal;
+    width: 500px;
+    padding-left: 700px;
 }
