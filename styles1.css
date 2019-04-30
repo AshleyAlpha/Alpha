@@ -1,8 +1,4 @@
-html{
-    background-image: url("https://scontent.fkgl1-1.fna.fbcdn.net/v/t1.0-9/47486317_1420785918057558_3399335068525658112_n.jpg?_nc_cat=100&_nc_ht=scontent.fkgl1-1.fna&oh=2feb69dfef877a5aa8f12e7537a644b7&oe=5C9720B9");
-    background-size: contain;
-    
-}
+
 h1{
     text-align: center;
     font-family: calibri;
@@ -12,13 +8,12 @@ h1{
 }
 p{
     font-family: calibri;
-    font-size: 25px;
+    font-size: 20px;
     color: teal;
-    width: 500px;
-    padding-left: 700px;
+    
     }
 
-.mix{
+/* .mix{
     animation-name: flash;
       animation-duration: 0.7s;
       animation-timing-function: linear;
@@ -29,32 +24,31 @@ p{
   @keyframes flash {
       from {color: yellowgreen;}
       to {color: teal;}
-  }
+  } */
 nav>ul>li{
     display:inline-block;
+    
 }
 nav>ul{
     text-align: right;
     font-family: calibri;
     font-size: 25px;
+    position: fixed;
     
 }
 nav>ul>li>a{
-    color: teal;
+    color: snow;
     padding:20px;
     text-decoration: none;
+    background: teal;
+    
+    
 }
 nav>ul>li>a:hover{
-    color: snow;
-    background-color: teal;
-    padding: 10px;
+    text-decoration: none;
+    
 }
-.potf{
-    text-align: center;
-    font-family: monospace;
-    color: teal;
-    text-decoration:none;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -71,11 +65,16 @@ a{
 ul>li{
     list-style-type: none;
 }
-#jaja{
+/* #jaja{
 
     font-family: calibri;
     font-size: 25px;
     color: teal;
     width: 500px;
     padding-left: 700px;
+} */
+#mamie{
+    text-align: center;
+    width: 600px;
+
 }
