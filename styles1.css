@@ -1,30 +1,55 @@
-
+html{
+    height: 100%;
+}
+.page1{
+    color: cornsilk;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 500px;
+    font-size: 30px;
+}
+#home{
+    background-image: url("https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg");
+    background-size: cover;
+    height:100%;
+    
+}
+#AboutMe{
+    /* background-color: cornsilk; */
+    background-image: url("https://images.pexels.com/photos/187023/pexels-photo-187023.jpeg");
+    background-size: cover;
+    height:100%;
+    padding-top: 250px;
+}
 h1{
     text-align: center;
-    font-family: calibri;
-    font-size: 25px;
+    font-family: monospace;
+    font-size: 30px;
     color: teal;
-    padding-top: 50px;
+    margin-bottom: 100px;
+    /* margin-top: -100px; */
 }
 p{
     font-family: calibri;
     font-size: 20px;
     color: teal;
     
+    
     }
+#me{
+    width: 600px;
+    text-align: center;
+    background-image: url("")
+     
+}
+h2{
+    font-size: 20px;
+    font-family: italic;
+    text-align: center;
+    padding-top: 200px;
+}
 
-/* .mix{
-    animation-name: flash;
-      animation-duration: 0.7s;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      animation-direction: alternate-reverse;
-      animation-play-state: running;
-  }
-  @keyframes flash {
-      from {color: yellowgreen;}
-      to {color: teal;}
-  } */
+
 nav>ul>li{
     display:inline-block;
     
@@ -37,10 +62,10 @@ nav>ul{
     
 }
 nav>ul>li>a{
-    color: snow;
+    color: teal;
     padding:20px;
     text-decoration: none;
-    background: teal;
+    background: cornsilk;
     
     
 }
@@ -57,24 +82,26 @@ a{
     background-color:darkslategrey;
     text-align:center;
     padding: 10px;
+    color: cornsilk;
     
 }
-.footer>ul>li{
+#footer>ul>li{
     list-style-type: none;
+    height: 100%;
 }
 ul>li{
     list-style-type: none;
 }
-/* #jaja{
 
-    font-family: calibri;
-    font-size: 25px;
-    color: teal;
-    width: 500px;
-    padding-left: 700px;
-} */
-#mamie{
-    text-align: center;
-    width: 600px;
 
+
+
+#PortFolio{
+/* background-image: url("https://images.pexels.com/photos/209692/pexels-photo-209692.jpeg"); */
+background-color: cornsilk;
+height:100%;
+padding-top: 340px;
+}
+#Skills{
+    height:100%;
 }
