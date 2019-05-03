@@ -6,7 +6,7 @@ html{
     font-family: monospace;
     text-align: center;
     padding-top: 500px;
-    font-size: 30px;
+    font-size: 50px;
 }
 #home{
     background-image: url("https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg");
@@ -31,7 +31,7 @@ h1{
 }
 p{
     font-family: calibri;
-    font-size: 20px;
+    font-size: 25px;
     color: teal;
     
     
@@ -43,10 +43,18 @@ p{
      
 }
 h2{
-    font-size: 20px;
-    font-family: italic;
+    font-size: 50px;
+    font-family: monospace;
     text-align: center;
     padding-top: 200px;
+}
+h3{
+    font-size: 50px;
+}
+h4{
+    font-family: calibri;
+    font-size: 25px;
+    color: teal; 
 }
 
 
@@ -65,7 +73,7 @@ nav>ul>li>a{
     color: teal;
     padding:20px;
     text-decoration: none;
-    background: cornsilk;
+    background-color: snow;
     
     
 }
@@ -78,16 +86,21 @@ a{
     text-decoration: none;
     color: black;
 }
+    #foot>a:hover{
+color: rgb(120, 236, 236);
+    }
 .footer{
     background-color:darkslategrey;
     text-align:center;
-    padding: 10px;
     color: cornsilk;
+    height: 100%;
+    padding-top: 300px;
+    font-size: 50px;
     
 }
 #footer>ul>li{
     list-style-type: none;
-    height: 100%;
+    
 }
 ul>li{
     list-style-type: none;
@@ -97,11 +110,20 @@ ul>li{
 
 
 #PortFolio{
-/* background-image: url("https://images.pexels.com/photos/209692/pexels-photo-209692.jpeg"); */
 background-color: cornsilk;
 height:100%;
-padding-top: 340px;
+padding-top: 200px;
 }
 #Skills{
     height:100%;
+}
+button{
+    background-color: teal;
+    color: snow;
+    padding: 10px;
+}
+#descr{
+    font-family: calibri;
+    font-size: 25px;
+    color:black;
 }
