@@ -61,19 +61,21 @@ h4{
 nav>ul>li{
     display:inline-block;
     
+    
 }
 nav>ul{
     text-align: right;
     font-family: calibri;
     font-size: 25px;
     position: fixed;
-    
+    background-color: snow;
+    padding: 20px;
 }
 nav>ul>li>a{
     color: teal;
     padding:20px;
     text-decoration: none;
-    background-color: snow;
+   
     
     
 }
@@ -116,6 +118,7 @@ padding-top: 200px;
 }
 #Skills{
     height:100%;
+    /* padding-left: 100px; */
 }
 button{
     background-color: teal;
