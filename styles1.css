@@ -127,3 +127,14 @@ button{
     font-size: 25px;
     color:black;
 }
+#contact {
+    height: 100%;
+    text-align: center;
+    color: rgb(232, 240, 237);
+    background-color: rgb(11, 99, 102);
+    padding: 200px;
+    font-family: monospace;
+  }
+  #co{
+      color: cornsilk;
+  }
